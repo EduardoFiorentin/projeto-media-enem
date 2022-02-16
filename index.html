@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enem | Calculador de notas de corte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="corpo">
+        <div class="titulos bloco">
+            <p class="titulo__notas">Notas enem</p>
+            <p class="titulo__pesos">Pesos</p>
+        </div>
+        <div class="bloco">
+            <label for="nota__redacao" class="label">Redação</label>
+            <input type="number" id="nota__redacao">
+            <input type="number" id="nota__redacao--peso" class="peso">
+        </div>
+        <div class="bloco">
+            <label for="nota__natureza" class="label">Natureza</label>
+            <input type="number" id="nota__natureza">
+            <input type="number" id="nota__natureza--peso"  class="peso">
+        </div>
+        <div class="bloco">
+            <label for="nota__humanas" class="label">Humanas</label>
+            <input type="number" id="nota__humanas">
+            <input type="number" id="nota__humanas--peso"  class="peso">
+        </div>
+        <div class="bloco">
+            <label for="nota__linguagens" class="label">Linguagens</label>
+            <input type="number" id="nota__linguagens">
+            <input type="number" id="nota__linguagens--peso"  class="peso">
+        </div>
+        <div class="bloco">
+            <label for="nota__matematica" class="label">Matematica</label>
+            <input type="number" id="nota__matematica">
+            <input type="number" id="nota__matematica--peso" class="peso">
+        </div>
+
+        <button class="enviar">calcular</button>
+
+        <div class="resposta">
+            <p class="nota__enem">
+                Nota ponderada: 
+                <span class="nota__enem--numero"></span>
+            </p>
+        </div>
+    </main>
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

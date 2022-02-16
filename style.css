@@ -1,0 +1,39 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+.corpo {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+.label {
+    display: inline-block;
+    width: 90px;
+}
+.titulos {
+    display: flex; 
+    justify-content: space-around;
+    font-size: 1.30rem;
+}
+.peso {
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+input {
+    text-align: center;
+    padding: 4px;
+    font-size: 1.05rem;
+}
+.enviar {
+    padding: 5px 10px;
+    border: none;
+    display: block;
+    font-size: 1.35rem;
+    cursor: pointer;
+    margin: auto;
+}
+.resposta {
+    font-size: 1.43rem;
+}
